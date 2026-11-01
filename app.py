@@ -308,7 +308,6 @@ def hero(student: bool):
 
 
 def teacher_wall(student_url: str):
-    masthead("МҰҒАЛІМ ЭКРАНЫ")
     left, right = st.columns([3.8, 1.05], gap="large", vertical_alignment="center")
     with left:
         hero(student=False)
